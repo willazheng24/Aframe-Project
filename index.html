@@ -9,7 +9,7 @@
   <body>
     <a-scene>
       <!--background-->
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="0.153 -0.129 -2.786" rotation="-90 0 0" width="10" height="4" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
 
       <!--bookshelf frame-->
@@ -18,7 +18,7 @@
       <a-box position="0 3 -3" rotation="0 0 0" color="#AB7139" scale="2 0.3 1.5"></a-box> <!--top of bookshelf-->
       <a-box position="-0.95 1.5 -3" rotation="0 0 0" color="#AB7135" scale="0.1 3 1.5"></a-box> <!--left side of bookshelf-->
       <a-box position="0.95 1.5 -3" rotation="0 0 0" color="#AB7135" scale="0.1 3 1.5"></a-box> <!--right side of bookshelf-->
-      
+      <a-entity position="-0.007 1.504 -3.843" scale="2 3.29 0.2" geometry="primitive-box" material="color:#AB7135" id="shelfBack"></a-entity>
       <!--shelves-->
       <a-box position="0 1 -3" rotation="0 0 0" color="#AB7139" scale="2 0.1 1.5"></a-box> <!--top shelf-->
       <a-box position="0 2 -3" rotation="0 0 0" color="#AB7139" scale="2 0.1 1.5"></a-box> <!--bottom shelf-->
@@ -26,6 +26,13 @@
       <!--top shelf-->
 
       <!--middle shelf-->
+      <a-entity position="-0.33 1.1 -2.61" scale="0.85 0.15 0.5" id="midBook1" mixin="null" geometry="primitive: box" material="color:#009141"></a-entity>
+      <a-entity position="-0.33 1.265 -2.61" scale="0.85 0.17 0.5" id="midBook2" mixin="null" geometry="primitive: box" material="color:#677BB4"></a-entity>
+      <a-entity position="0.276 1.478 -2.61" scale="0.18 0.85 0.5" id="midBook3" mixin="null" geometry="primitive: box" material="color:#E53278"></a-entity>
+      <a-entity position="0.456 1.478 -2.61" scale="0.18 0.85 0.5" id="midBook4" mixin="null" geometry="primitive: box" material="color:#ECE658"></a-entity>
+      <a-entity position="0.638 1.478 -2.61" scale="0.18 0.85 0.5" id="midBook5" mixin="null" geometry="primitive: box" material="color:#677BB4"></a-entity>
+      <a-entity position="0.81 1.478 -2.61" scale="0.18 0.85 0.5" id="midBook6" mixin="null" geometry="primitive: box" material="color:#592D57" ></a-entity>
+
 
       <!--bottom shelf-->
       <a-entity position="-0.85 0.43 -2.64" scale="0.2 0.95 0.68" id="book1" mixin="null" geometry="primitive: box" material="color:#454B52"></a-entity>
